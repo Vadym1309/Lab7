@@ -1,0 +1,80 @@
+:root {
+    --primary-color: #3498db; /* Головний синій колір */
+    --secondary-color: #2ecc71; /* Яскравий зелений для акцентів */
+    --background-color: #f4f7f6; /* Світлий фон */
+    --text-color: #333; /* Темний текст */
+    --button-bg: #2980b9; /* Колір фону для кнопок */
+    --button-text: #fff; /* Колір тексту на кнопках */
+    --header-bg: #34495e; /* Фон для заголовків */
+    --hover-color: #1abc9c; /* Колір при наведенні */
+}
+
+body {
+    background-color: var(--background-color);
+    color: var(--text-color);
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: var(--primary-color);
+    margin-bottom: 20px;
+}
+
+h1 {
+    background-color: var(--header-bg);
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+button {
+    background-color: var(--button-bg);
+    color: var(--button-text);
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: var(--hover-color);
+}
+
+#btn {
+    margin: 20px auto;
+    display: block;
+}
+
+a {
+    color: var(--primary-color);
+    text-decoration: none;
+}
+
+a:hover {
+    color: var(--secondary-color);
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.highlight {
+    background-color: var(--secondary-color);
+    color: var(--button-text);
+    padding: 5px;
+}
+.owl-carousel .item img {
+    width: 100%;
+    height: auto;
+}
